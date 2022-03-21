@@ -1,0 +1,29 @@
+.title-span {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 5em;
+    font-weight: 700;
+    text-align: center;
+    color: darkslategray;
+}
+
+.extends-span {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 2.7em;
+    font-size: 500;
+    text-align: center;
+}
+
+button {
+    margin-top: 2%;
+}
+
+/* .container .container-sm {
+    max-height: 100% !important;
+    max-width: 100% !important;
+}
+
+main .nautilus{
+    background-color: #273c5a !important;
+} */
+
+

@@ -161,9 +161,18 @@ async function verify(event) {
     let summaryNegative = onlyNumbers + onlyLetters + currentLetters + currentNumbers + upperRepeat + lowerRepeat;
 
     let isExposed = await isExplosed(pass.toLowerCase());
-    console.log(timeForCrack(pass, upperCase > 0, lowerCase > 0, numberCase > 0, symbolCase > 0));
+    let timeCrack = timeForCrack(pass, upperCase > 0, lowerCase > 0, numberCase > 0, symbolCase > 0);
     (new TitleButton()).show();
-    console.log(sumaryPossitive, summaryNegative, isExposed, summaryNegative / sumaryPossitive);
+    filterResultId.innerHTML = (isExposed? "This password is exposed in dictionaries for crack, please change the password."
+                                            : "This password is temporarily protected, please learn the complexity result.");
+    complexResultId.innerHTML = "This password has " 
+                                    + sumaryPossitive 
+                                    + " points positives and " 
+                                    + summaryNegative 
+                                    + " points negatives."
+                                    + " Violated in " 
+                                    + timeCrack
+                                    + "."; 
 
 }
 

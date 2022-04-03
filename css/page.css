@@ -3,7 +3,7 @@
     font-size: 5em;
     font-weight: 700;
     text-align: center;
-    color: darkslategray;
+    color: white;
 }
 
 .extends-span {
@@ -11,19 +11,44 @@
     font-size: 2.7em;
     font-size: 500;
     text-align: center;
+    color: white;
 }
 
 button {
     margin-top: 2%;
 }
 
-/* .container .container-sm {
-    max-height: 100% !important;
-    max-width: 100% !important;
+main, .container, #cardMain,  body, .bg-light {
+    background-color:   rgb(31, 32, 40) !important;
 }
 
-main .nautilus{
-    background-color: #273c5a !important;
-} */
+.card {
+    background-color: #272935;;
+    color: white;
+}
 
+#passwordSubmit {
+    background: #424557;
+}
 
+#passwordSubmit:hover {
+    color: #81edff;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: red;
+    background: transparent;
+  }
+  
+  ::selection {
+    color: red;
+    background: transparent;
+  }
+
+  footer {
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 1%;
+    color: #81edff;
+}   

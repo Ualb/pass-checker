@@ -131,7 +131,7 @@ const timeForCrack = (pass, upper, lower, numbers, symbols) => {
     if (pass.length <= 8) {
         return "minutes";
     }  
-    return "is not possible to calc";
+    return "Is not possible to calc";
 }
  
 async function verify(event) { 
@@ -167,10 +167,10 @@ async function verify(event) {
                                             : "This password is temporarily protected, please learn the complexity result.");
     complexResultId.innerHTML = "This password has " 
                                     + sumaryPossitive 
-                                    + " points positives and " 
+                                    + " strong points and " 
                                     + summaryNegative 
-                                    + " points negatives."
-                                    + " Violated in " 
+                                    + " weak points."
+                                    + " Break-in time: " 
                                     + timeCrack
                                     + "."; 
 

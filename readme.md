@@ -10,5 +10,5 @@ Is a project for validated your password in a simple form.
 - Confirms if your password exists in common password dictionaries.
 
 
-###Based Information
+### Based Information
 [Redit: Time required to brute-force crack a password depending on password entropy](https://www.reddit.com/r/dataisbeautiful/comments/322lbk/time_required_to_bruteforce_crack_a_password/)  

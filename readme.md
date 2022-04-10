@@ -6,7 +6,7 @@ Is a project for validated your password in a simple form.
 ### Features
 
 - This algorithm use the entropy for the password and disposed of a metric for its evaluation.
-- The algorithm valid the alphanumeric information inside the password for the possible  strength and wike points
+- The algorithm valid the alphanumeric information inside the password for the possible  strength and wike points.
 - Confirms if your password exists in common password dictionaries.
 
 
